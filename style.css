@@ -1,0 +1,54 @@
+/*the html css below is the blueprint to make an image span over the 
+whole page no matter what and always remain in the center of the page 
+in any direction.*/
+
+
+html {
+	background: url(WhiteTiger.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+h1 {
+	/*justify-content: center;
+*/	color: #594686;
+}
+
+.buffer-space {
+	height: 10rem;
+}
+
+hr { 
+	border-color: #594686;
+	border-width: 5px;
+	max-width: 80px;
+}
+
+
+.btn-primary {
+	border-color: #594686;
+	color: white;
+	background-color: #594686;
+}
+
+
+.btn-primary:hover {
+	background-color: #b69fec;
+	border-color: #b69fec;
+}
+
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
