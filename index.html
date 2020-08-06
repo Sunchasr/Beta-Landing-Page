@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+
+		<!-- Required meta tags -->
+		<!-- 'viewport'  -->
+
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+	</head>
+	<body>
+		<div class="container h-100">
+			<!-- "h-100" means the div container which usually soans the entire width (100) should also now span the entire height, hence height-100.  now when clicking on insoect and hovering over the div container - you should see the whole page is convered.  This is hwo you get items dead in the middle of a page. -->
+			<div class="row">
+				<header class="text-center col-12"> <!-- the col 12 at end means take up whole row, since its text-center the text should be horizontally centered, but not verytically-->
+					<h1 class="text-uppercase"><strong>First Bootstrap Website</strong></h1>
+				</header>
+				<section class="text-center col-12">
+					<hr><!-- <hr> tag = horizotal line-->
+					<button class="btn btn-primary btn-xl">More Info </button>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- for vertical alignment, inline, inline-block and inline-table are not advised.  using the "D-FLEX" class just enables felxbox, more advised.  adding d-flex to the class part of opening tag works because, in the bootstrap CSS file there is already CSS edits for the d-flex class. -->
+
+<!-- IN the div container below combining the column statements (see page 3) so that when the window is small one set of rules apply for partioning the grid but when the window changes size, another set of grid layout parameters can be used. -->
+
+	<!-- <div class = "container">
+		<div class="row">
+			<div class="col col-sm-6 col-md-12">
+				1 of 2
+			</div>
+			<div class="col col-sm-3 col-md-6">
+				2 of 2	
+			</div>
+			<div class="col col-sm-4 col-md-6">
+				Extra
+			</div>
+		</div>
+	</div> -->
